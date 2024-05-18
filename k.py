@@ -83,6 +83,15 @@ Write a Python program to group anagrams from a list of strings. Anagrams are wo
 
 # Write a Python program to rotate a list by n positions.
 
+# l=[1,2,3,4,5]
+# p=int(input("enter the input :"))
+# for i in range(p):
+#   m=l.pop()
+#   l.insert(i,m)
+# print(l)
+
+
+
 
 
 # Write a Python program to find all common elements between two lists.
@@ -100,3 +109,29 @@ Write a Python program to group anagrams from a list of strings. Anagrams are wo
 
 #Write a Python program to find
 # the longest sublist of unique elements from a given list
+
+# l= [1,3,5,6,5,8,7,4,8,2,1,7,5,6,3]
+# m=[]
+# for i in range(len(l)):
+#   l2=[]
+#   l2.append(l[i])
+#   ind=0
+#   for j in range (i+1,len(l)):
+#     if l[j] in l2:
+#       break
+#     else:
+#       if l[i]!=l[j]:
+#         l2.append(l[j])
+#         ind+=1
+#       else:
+#         break
+#   m.append(l2)
+# max1=0
+# for i in m:
+#   if max1<len(i):
+#     max1=len(i)
+# for j in m:
+#   if len(j)==max1:
+#     print(j)
+
+
