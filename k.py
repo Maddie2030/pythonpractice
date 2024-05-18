@@ -134,4 +134,12 @@ Write a Python program to group anagrams from a list of strings. Anagrams are wo
 #   if len(j)==max1:
 #     print(j)
 
+#### Write a Python program to merge two sorted lists into a single sorted list.
 
+# l1=[5,1,3,6,7,8]
+# l2=[17,3,5,51,23]
+# l1.extend(l2)
+# l1.sort()
+# print(l1)
+
+#### 
