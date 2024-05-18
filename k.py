@@ -25,7 +25,6 @@ Write a Python program to group elements in a list by their frequency of occurre
 
 ### 9. Find the Most Frequent Element in a List
 Write a Python program to find the most frequent element in a list.
-
 ### 10. Split a List into Sublists of Equal Length
 Write a Python program to split a list into sublists of equal length. If the list cannot be divided evenly, the last sublist should contain the remaining elements.
 
@@ -88,13 +87,16 @@ Write a Python program to group anagrams from a list of strings. Anagrams are wo
 
 # Write a Python program to find all common elements between two lists.
 
-l= [1,3,5,6,5,8,4,8,2]
-l1=[5,15,8,4,27]
-l2=[]
-l3=[]
-for i in l:
-  if i in l1:
-    l2.append(i)
-k=set(l2)
-l2=list(k)
-print(l2)
+# l= [1,3,5,6,5,8,4,8,2]
+# l1=[5,15,8,4,27]
+# l2=[]
+# l3=[]
+# for i in l:
+#   if i in l1:
+#     l2.append(i)
+# k=set(l2)
+# l2=list(k)
+# print(l2)
+
+#Write a Python program to find
+# the longest sublist of unique elements from a given list
